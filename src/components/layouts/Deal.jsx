@@ -16,7 +16,7 @@ const Deal = () => {
               <h2 className="font-semibold text-[40px] text-[#1A1A1A] uppercase">
                 Deal Of the days
               </h2>
-              <p className="font-normal text-base text-[#74787C] w-[438px] pt-[10px] pb-[30px]">
+              <p className="font-normal text-base text-[#74787C] w-[438px] pt-2.5 pb-[30px]">
                 Elegant pink origami design three type of dimensional view and
                 decoration co Great for adding a decorative...
               </p>
@@ -34,7 +34,7 @@ const Deal = () => {
               </Flex>
               <Button
                 className={
-                  "bg-[#E53E3E] font-semibold text-base text-white mt-[60px] border border-[#E53E3E] tracking-[1px] hover:bg-white hover:text-[#E53E3E] hover:border-[#E8E8E8] hover:duration-500"
+                  "bg-[#E53E3E] font-semibold text-base text-white mt-[60px] border border-[#E53E3E] tracking-[1px] hover:bg-white hover:text-[#E53E3E] hover:border-[#E8E8E8] duration-500"
                 }
                 btnText={"View All Collections"}
               />
