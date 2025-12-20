@@ -3,6 +3,7 @@
 
 @theme {
     --font-Jost: "Jost", sans-serif; 
+    --font-redHatDisplay: "Red Hat Display", sans-serif; 
     /* --font-papRika: "Paprika", system-ui;  */
     --shadow-newMade: 0 30px 42px rgba(0, 0, 0, 0.04);
 }
