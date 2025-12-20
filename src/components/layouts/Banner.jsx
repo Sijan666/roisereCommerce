@@ -9,7 +9,7 @@ const Banner = () => {
       <div className=" bg-[url(/src/assets/bgImg.png)] py-45 bg-no-repeat bg-center bg-cover">
         <Container>
           <div className="w-100 ml-220">
-            <p className="text-sm text-[#E53E3E] w-[155px] pb-[30px]">
+            <p className="text-sm text-[#E53E3E] w-[300px] pb-[30px] uppercase">
               ummer 22 women’s collection
             </p>
             <h1 className="font-semibold text-5xl text-[#1A1A1A] pb-[50px] w-[460px]">
