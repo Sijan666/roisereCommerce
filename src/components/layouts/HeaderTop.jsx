@@ -7,8 +7,8 @@ const HeaderTop = () => {
   return (
     <div className="bg-[#E53E3E] py-5">
       <Container>
-        <Flex>
-          <div className="w-[20%]">
+        <Flex className={'justify-between'}>
+          <div>
             <ul className="flex items-center gap-6">
               <li className="font-medium text-sm text-white font-Jost">
                 <Link to={"/about"}>About</Link>
@@ -24,12 +24,12 @@ const HeaderTop = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[50%] text-center">
+          <div >
             <p className="font-medium text-sm text-white font-Jost">
               Free shipping for all orders of 150$
             </p>
           </div>
-          <div className="w-[30%]">
+          <div>
             <ul className="flex items-center gap-6">
               <li className="font-medium text-sm text-white font-Jost">
                 Store Location
