@@ -5,12 +5,12 @@ import Deal from "../layouts/Deal"
 
 
 const Home = () => {
-    return (
-        <>
-        <Banner/>
-        <Deal/>
-        </>
-    )
+        return (
+                <>
+                <Banner/>
+                <Deal/>
+                </>
+        )
 }
 
 export default Home
