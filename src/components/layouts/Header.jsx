@@ -30,15 +30,15 @@ const Header = () => {
             </div>
             <div className="w-[58%]">
               <Flex className="border-2 rounded-[3px] border-[#E8E8E8] p-2.5 w-[80%] ml-[70px]">
-                <Flex className="text-sm text-[#1A1A1A] font-bold px-4 border-[#CFCFCF] border-r-2">
-                  All Categories <FaChevronDown />
+                <Flex className="text-sm text-[#1A1A1A] font-bold px-2 border-[#CFCFCF] border-r-2">
+                  All Categories <FaChevronDown className="ml-1"/>
                 </Flex>
                 <input
                   type="text"
                   placeholder="Search Keywords..."
                   className="mx-5 outline-none w-[340px]"
                 />
-                <div className="bg-[#E53E3E] text-white px-[18px] py-2 rounded-[3px] cursor-pointer">
+                <div className="bg-[#E53E3E] text-white px-[18px] py-1 rounded-[3px] cursor-pointer">
                   Search Here
                 </div>
               </Flex>
