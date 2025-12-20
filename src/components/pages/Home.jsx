@@ -1,14 +1,13 @@
-
-import Banner from "../layouts/Banner"
-
-
+import Banner from "../layouts/Banner";
+import Getyourfashion from "../layouts/Getyourfashion";
 
 const Home = () => {
-    return (
-        <>
-        <Banner/>
-        </>
-    )
-}
+  return (
+    <>
+      <Banner />
+      <Getyourfashion />
+    </>
+  );
+};
 
-export default Home
+export default Home;
