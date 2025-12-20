@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       {/* <h3>Nabil</h3> */}
-      <div className="relative bg-amber-300 ">
+      <div className="relative">
         <Container className={"pt-7 pb-[70px] "}>
           <Flex>
             <div className="w-[10%]">
