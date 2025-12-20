@@ -23,7 +23,7 @@ const Getyourfashion = () => {
   return (
     <div className="py-25">
       <Container>
-        <div className="pb-7.5 border-b-1 border-b-[#E9E9E9] mb-10">
+        <div className="pb-7.5 border-b border-b-[#E9E9E9] mb-10">
           <h3 className="font-Jost font-semibold text-4xl text-[#1A1A1A] mb-4.5">
             GET YOUR FASHION STYLE
           </h3>

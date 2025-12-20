@@ -78,7 +78,7 @@ const Product = ({
         </div>
       </div>
 
-      <div className="px-6 py-6.5 bg-white rounded-[6px] border-b-1 border-b-[#E8E8E8] border-l-1 border-l-[#E8E8E8] border-r-1 border-r-[#E8E8E8]">
+      <div className="px-6 py-6.5 bg-white rounded-md border-b border-b-[#E8E8E8] border-l border-l-[#E8E8E8] border-r border-r-[#E8E8E8]">
         <h5 className={`mb-1 font-Jost font-normal text-[12px] text-[#74787C]`}>
           {productType}
         </h5>
