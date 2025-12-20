@@ -56,7 +56,7 @@ const Blog = () => {
               </Link>
             </Flex>
             <h3 className="text-[#1A1A1A] text-[20px] font-semibold font-Jost uppercase leading-7 mt-5">
-              Fashion Around the: Exploring Cultural Influences
+              Embracing Ethical and Eco friendly Fashion
             </h3>
             <div className="w-[385px] h-0.5 bg-[#EAEAEA] mt-8"></div>
             <Link className="inline-flex items-center gap-x-1 text-[#E53E3E] text-base mt-6">
@@ -83,7 +83,7 @@ const Blog = () => {
               </Link>
             </Flex>
             <h3 className="text-[#1A1A1A] text-[20px] font-semibold font-Jost uppercase leading-7 mt-5">
-              Fashion Around the: Exploring Cultural Influences
+              How to Decorate Your Car for Halloween
             </h3>
             <div className="w-[385px] h-0.5 bg-[#EAEAEA] mt-8"></div>
             <Link className="flex items-center gap-x-1 text-[#E53E3E] text-base mt-6">
