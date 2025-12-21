@@ -16,7 +16,6 @@ const About = () => {
             <p className="text-gray-400 text-[10px] mb-6 font-medium">Don't miss the special offer this week</p>
             <Button btnText="Shop Now" />
         </div>
-    )
-}
+    )}
 
 export default About
