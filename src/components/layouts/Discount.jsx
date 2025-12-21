@@ -9,6 +9,7 @@ import Images from "../Images";
 import sign from '../../assets/sign.png'
 
 
+
 const Discount = () => {
     return (
     <>
@@ -20,7 +21,7 @@ const Discount = () => {
                 {/* <p className="text-red-400 text-xs mb-2 font-medium">
                 Special 50% Discount
                 </p> */}
-                <Badges badgesText="Special 50% Discount" />
+                <Badges badgesText="Special 50% Discount" className={'group-hover:bg-[#ef5350] group-hover:text-white text-[#ef5350] text-[10px] duration-300'}/>
                 <h2 className="text-xl font-bold mb-6 w-[260px] text-gray-800 leading-tight">
                 The Latest Men's Trends This Season
                 </h2>
@@ -34,7 +35,7 @@ const Discount = () => {
                 className="p-10 border border-gray-100 h-[250px] bg-cover bg-center bg-no-repeat flex flex-col justify-center w-1/3 group"
                 style={{ backgroundImage: `url(${about})` }}
             >
-                <Badges badgesText="WEEKEND DISCOUNT" />
+                <Badges badgesText="WEEKEND DISCOUNT" className={'group-hover:bg-[#ef5350] group-hover:text-white text-[#ef5350] text-[10px] duration-300'} />
                 <h2 className="text-lg font-bold mb-2 uppercase text-gray-800 w-[260px]">
                 Latest Kids Trends This Season
                 </h2>
@@ -52,7 +53,7 @@ const Discount = () => {
                 {/* <p className="text-red-400 text-xs mb-2 font-medium">
                 Special 50% Discount
                 </p> */}
-                <Badges badgesText="Special 50% Discount"/>
+                <Badges badgesText="Special 50% Discount" className={'group-hover:bg-[#ef5350] group-hover:text-white text-[#ef5350] text-[10px] duration-300'}/>
                 <h2 className="text-xl font-bold mb-6 w-[260px] text-gray-800 leading-tight">
                 Latest Women's Trends This Season
                 </h2>
