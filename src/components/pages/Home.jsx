@@ -14,7 +14,6 @@ const Home = () => {
       <Deal />
       <Blog />
         </>
-    )
-}
+    )}
 
 export default Home;
