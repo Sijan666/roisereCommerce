@@ -1,6 +1,7 @@
-import women from "../../assets/bg.png";
-import men from "../../assets/bg1.png"
-import about from "../../assets/bg.png"
+// import women from "../../assets/bg.png";
+// import men from "../../assets/bg1.png"
+import bg1 from "../../assets/bg1.png"
+// import about from "../../assets/bg.png"
 import Button from "../Button";
 import Badges from "../Badges";
 // import Container from "../Container";
@@ -16,7 +17,7 @@ const Discount = () => {
         <Flex className={'justify-between items-center w-full gap-x-4 pt-10'}>
             <div
                 className="p-10 border border-gray-100 h-[250px] bg-cover bg-center bg-no-repeat flex flex-col justify-center w-1/3 group"
-                style={{ backgroundImage: `url(${men})` }}
+                style={{ backgroundImage: `url(${bg1})` }}
             >
                 {/* <p className="text-red-400 text-xs mb-2 font-medium">
                 Special 50% Discount
@@ -33,7 +34,7 @@ const Discount = () => {
             </div>
             <div
                 className="p-10 border border-gray-100 h-[250px] bg-cover bg-center bg-no-repeat flex flex-col justify-center w-1/3 group"
-                style={{ backgroundImage: `url(${about})` }}
+                style={{ backgroundImage: `url(${bg1})` }}
             >
                 <Badges badgesText="WEEKEND DISCOUNT" className={'group-hover:bg-[#ef5350] group-hover:text-white text-[#ef5350] text-[10px] duration-300'} />
                 <h2 className="text-lg font-bold mb-2 uppercase text-gray-800 w-[260px]">
@@ -48,7 +49,7 @@ const Discount = () => {
             </div>
             <div
                 className="p-10 border border-gray-100 h-[250px] bg-cover bg-center bg-no-repeat flex flex-col justify-center w-1/3 group"
-                style={{ backgroundImage: `url(${women})` }}
+                style={{ backgroundImage: `url(${bg1})` }}
             >
                 {/* <p className="text-red-400 text-xs mb-2 font-medium">
                 Special 50% Discount
