@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from "./Badge";
+import Badge from "./Badges";
 import Images from "./Images";
 import Flex from "./Flex";
 import { Link } from "react-router-dom";
