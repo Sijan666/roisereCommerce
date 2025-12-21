@@ -1,6 +1,7 @@
 
 import Banner from "../layouts/Banner"
 import Blog from "../layouts/Blog"
+import CategoryCollection from "../layouts/CategoryCollection"
 import CBrand from "../layouts/CBrand"
 import CtaandBrand from "../layouts/CtaandBrand"
 import Deal from "../layouts/Deal"
@@ -15,6 +16,7 @@ const Home = () => {
                 <Banner/>
                 <Discount/>
                 <Getyourfashion/>
+                <CategoryCollection/>
                 <CtaandBrand/>
                 <CBrand/>
                 <Deal/>
