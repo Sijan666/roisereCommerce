@@ -1,4 +1,4 @@
-import Badge from "./Badge";
+import Badge from "./Badges";
 import Flex from "./Flex";
 import Images from "./Images";
 import { FaStar } from "react-icons/fa";
