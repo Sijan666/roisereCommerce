@@ -1,20 +1,20 @@
 
 import Banner from "../layouts/Banner"
-import Blog from "../layouts/Blog"
+import CategoryCollection from "../layouts/CategoryCollection"
 import Deal from "../layouts/Deal"
-import Getyourfashion from "../layouts/Getyourfashion"
+import Blog from "../layouts/Blog"
 
 
 
 const Home = () => {
-        return (
-                <>
-                <Banner/>
-                <Getyourfashion/>
-                <Deal/>
-                <Blog/>
-                </>
-        )
+    return (
+        <>
+        <Banner/>
+        <CategoryCollection />
+      <Deal />
+      <Blog />
+        </>
+    )
 }
 
 export default Home;
