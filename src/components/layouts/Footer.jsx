@@ -23,32 +23,32 @@ const Footer = () => {
             <div className="flex items-center">
                 <Images imgSrc={Box}/>
             <div className="pr-[65px] pl-[15px] border-[#E7E7E7] border-r">
-              <h5 className="text-[#1A1A1A] font-semibold text-[18px]"> Free shipping</h5>
-              <p className="text-[#74787C]  text-sm">  Free shipping on orders over $65.</p>
+              <h5 className="text-[#1A1A1A] font-semibold text-[18px]">Free shipping</h5>
+              <p className="text-[#74787C]  text-sm">Free shipping on orders over $65.</p>
             </div>
             </div>
             {/* 2 */}
             <div className="flex items-center">
                 <Images imgSrc={Car}/>
             <div className="pr-[65px] pl-[15px] border-[#E7E7E7] border-r">
-              <h5 className="text-[#1A1A1A] font-semibold text-[18px]"> Free shipping</h5>
-              <p className="text-[#74787C]  text-sm">  Free shipping on orders over $65.</p>
+              <h5 className="text-[#1A1A1A] font-semibold text-[18px]">Free Returns</h5>
+              <p className="text-[#74787C]  text-sm">30-days free return policy</p>
             </div>
             </div>
             {/* 3 */}
             <div className="flex items-center">
                 <Images imgSrc={Card}/>
             <div className="pr-[65px] pl-[15px] border-[#E7E7E7] border-r">
-              <h5 className="text-[#1A1A1A] font-semibold text-[18px]"> Free shipping</h5>
-              <p className="text-[#74787C]  text-sm">  Free shipping on orders over $65.</p>
+              <h5 className="text-[#1A1A1A] font-semibold text-[18px]">Secured Payments</h5>
+              <p className="text-[#74787C]  text-sm">We accept all major credit cards</p>
             </div>
             </div>
             {/* 4 */}
             <div className="flex items-center">
                 <Images imgSrc={Time}/>
             <div className="pr-[65px] pl-[15px] ">
-              <h5 className="text-[#1A1A1A] font-semibold text-[18px]"> Free shipping</h5>
-              <p className="text-[#74787C]  text-sm">  Free shipping on orders over $65.</p>
+              <h5 className="text-[#1A1A1A] font-semibold text-[18px]">Customer Service</h5>
+              <p className="text-[#74787C]  text-sm">Top notch customer service</p>
             </div>
             </div>
             
@@ -83,27 +83,27 @@ const Footer = () => {
               </ul>
             </div>
             {/* 3 */}
-            <div className="">
-              <h3 className="text-[#1A1A1A] text-[18px] font-medium pb-[25px]">Shop Categories</h3>
-               <ul>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">New Arrivals</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Best Selling</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Vegetables</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Fresh Meat</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Fresh Seafoods</li></Link>
-              </ul>
-            </div>
+              <div className="">
+                <h3 className="text-[#1A1A1A] text-[18px] font-medium pb-[25px]">Shop Categories</h3>
+                <ul>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">New Arrivals</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Best Selling</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Vegetables</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Fresh Meat</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Fresh Seafoods</li></Link>
+                </ul>
+              </div>
             {/* 4 */}
-            <div className="">
-              <h3 className="text-[#1A1A1A] text-[18px] font-medium pb-[25px]">Useful Links</h3>
-               <ul>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Privacy Policy</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Terms & Conditions</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Contact Us</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Latest News</li></Link>
-                <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Our Sitemaps</li></Link>
-              </ul>
-            </div>
+              <div className="">
+                <h3 className="text-[#1A1A1A] text-[18px] font-medium pb-[25px]">Useful Links</h3>
+                <ul>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Privacy Policy</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Terms & Conditions</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Contact Us</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Latest News</li></Link>
+                  <Link to={''}><li className="text-[#74787C] text-[16px] pb-[18px] ">Our Sitemaps</li></Link>
+                </ul>
+              </div>
             {/* 5 */}
             <div className="">
               <h3 className="text-[#1A1A1A] text-[18px] font-medium pb-[25px]">Our Newsletter</h3>
@@ -135,4 +135,3 @@ const Footer = () => {
 }
 
 export default Footer
- 
